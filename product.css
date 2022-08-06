@@ -502,3 +502,6 @@ figure.snip1208 {
     /* .card-produk {
       
     } */
+    .wa a img {
+      float: right;
+    }
