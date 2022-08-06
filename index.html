@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- loader -->
+    <div class="bg-loader">
+        <div class="loader">
+
+        </div>
+    </div>
+    <!-- header -->
+    <div class="medsos">
+        <div class="container">
+            <ul>
+                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter-square"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <header>
+        <div class="container">
+            <h1><a href="">Onestore</a></h1>
+            <ul>
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="abaut.html">Abaut</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+        </div>
+        
+
+    </header>
+
+    <!-- Banner -->
+    <section class="banner">
+        <h1>Welcome to my website</h1>
+
+    </section>
+
+    <section class="abaut">
+        <div class="container">
+            <h3>Abaut</h3>
+            <p>One'sstore adalah merupakan salah satu  e-commerce di Indonesia yang sampai saat ini terus berkembang dengan produk jenis pakaian </p>
+        </div>
+
+    </section>
+
+    <!-- Service -->
+    <section class="service">
+        <div class="container">
+            <h3>Prodak</h3>
+            <div class="box">
+                <div class="col-4">
+                    <div class="icon"><i class="fa-solid fa-shirt"></i></div>
+                        <h4>Baju</h4>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="icon"><img src="img/pants.png" alt="pants" style="width: 30px; height: 30px;"></div>
+                            <h4>Celana</h4>
+                        </div>
+
+                    <div class="col-4">
+                            <div class="icon"><img src="img/jacket.png" alt="jacket"  style="width: 30px; height: 30px;"></div>
+                                <h4>Jaket</h4>
+                            </div>
+
+                            <div class="col-4">
+                                <div class="icon"><img src="img/aksesoris.png" alt="aksesoris" style="width: 30px; height: 30px;"></div>
+                                    <h4>Aksesoris</h4>
+                                </div>
+                    
+                    
+                        
+                    
+                </div>
+            </div>
+        </div>
+
+    </section>
+       <footer>
+        <div class="container">
+            <small>Copyright &copy; 2020-onestore.All rights Reserved</small>
+        </div>
+       </footer>
+       <script type="text/javascript">
+        $(document).ready(function(){
+            $(".bg-loader").hide();
+        })
+       </script>
+       <script>
+       h1Node = document.querySelector("h1");
+     
+       function buatEfek(){
+         if (h1Node.style.color === "red"){
+           h1Node.style.color = "blue";
+         }
+         else {
+           h1Node.style.color = "red";
+         }
+       }
+       setInterval(buatEfek,1000);
+     </script>
+</body>
+</html>
