@@ -29,11 +29,11 @@
     
     <header>
         <div class="container">
-            <h1><a href="">Onestore</a></h1>
+            <h1><a href="">ORIONE STORE </a></h1>
             <ul>
                 <li class="active"><a href="index.html">Home</a></li>
                 <li><a href="abaut.html">Abaut</a></li>
-                <li><a href="service.html">Service</a></li>
+                <li><a href="product.html">Product</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
 
@@ -44,16 +44,15 @@
 
     <!-- Banner -->
     <section class="banner">
-        <h1>Welcome to my website</h1>
+        <img src="./img/rolemodel.png" alt="rolemodel">
+        <h1><marquee>Selamat Datang Website ORIONE STORE </h1></marquee>
 
     </section>
 
     <section class="abaut">
         <div class="container">
             <h3>Abaut</h3>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been <strong>the industry's standard dummy text</strong>  ever since the 1500s,
-                 when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+            <p>One'sstore adalah merupakan salah satu  e-commerce di Indonesia yang sampai saat ini terus berkembang dengan produk jenis pakaian </p>
         </div>
 
     </section>
@@ -61,26 +60,26 @@
     <!-- Service -->
     <section class="service">
         <div class="container">
-            <h3>Service</h3>
+            <h3>Prodak</h3>
             <div class="box">
                 <div class="col-4">
-                    <div class="icon"><i class="fa-solid fa-mobile-button"></i></div>
-                        <h4>Mobile App</h4>
+                    <div class="icon"><i class="fa-solid fa-shirt"></i></div>
+                        <h4>Baju</h4>
                     </div>
 
                     <div class="col-4">
-                        <div class="icon"><i class="fa-solid fa-globe"></i></div>
-                            <h4>Web development</h4>
+                        <div class="icon"><img src="img/pants.png" alt="pants" style="width: 30px; height: 30px;"></div>
+                            <h4>Celana</h4>
                         </div>
 
-                        <div class="col-4">
-                            <div class="icon"><i class="fa-solid fa-edit"></i></div>
-                                <h4>Design</h4>
+                    <div class="col-4">
+                            <div class="icon"><img src="img/jacket.png" alt="jacket"  style="width: 30px; height: 30px;"></div>
+                                <h4>Jaket</h4>
                             </div>
 
                             <div class="col-4">
-                                <div class="icon"><i class="fa-solid fa-chart-bar"></i></div>
-                                    <h4>Digital Marketing</h4>
+                                <div class="icon"><img src="img/aksesoris.png" alt="aksesoris" style="width: 30px; height: 30px;"></div>
+                                    <h4>Aksesoris</h4>
                                 </div>
                     
                     
@@ -101,5 +100,18 @@
             $(".bg-loader").hide();
         })
        </script>
+       <script>
+       h1Node = document.querySelector("h1");
+     
+       function buatEfek(){
+         if (h1Node.style.color === "red"){
+           h1Node.style.color = "blue";
+         }
+         else {
+           h1Node.style.color = "red";
+         }
+       }
+       setInterval(buatEfek,1000);
+     </script>
 </body>
 </html>
