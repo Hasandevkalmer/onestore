@@ -499,9 +499,35 @@ figure.snip1208 {
       background-color: white;
       overflow: hidden;
     }
-    /* .card-produk {
+    
       
-    } */
-    .wa a img {
+   .text-wa {
+    display: none;
+   
+   }
+   text-wa.isVisible {
+    display: block;
+   }
+   .wa a img {
+    float: right;
+    width: 5em;
+
+  }
+  
+    /* 
+    text-wa {
+    
       float: right;
     }
+    text-wa h5 {
+   
+      font-size: 70px;
+      left: 400px;
+      top: 90px;
+    }
+    .wa h5 {
+      float: left;
+    
+
+    }
+    */

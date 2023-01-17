@@ -32,7 +32,7 @@ a {
 header h1 { 
     float: left;
     padding: 30px 0;
-    color:  rgb(219, 69, 64);;
+    color:  rgb(219, 69, 64);
 }
 header ul {
    
@@ -56,13 +56,12 @@ header ul li a:hover {
 }
 .banner {
     height: 60vh;
-    background-image: url(./img/bannerfigma.png);
+    /* background-image: url(./img/bannerfigma.png); */
     background-size: cover;
     position: relative; 
     display: flex;
     justify-content: center;
     align-items: center; 
-    display: flex;
     margin-top: -50px;
     width: 100%; 
 
@@ -91,6 +90,60 @@ section {
     padding: 50px 0;
  
 }
+
+.img-banner {
+    /* width: 100%;
+    position: relative; 
+    display: flex;
+    justify-content: center;
+    align-items: center;  */
+
+   
+    /* background-image: url(./img/bannerfigma.png); */
+    height: 60vh;
+    background-size: cover;
+    position: relative; 
+    justify-content: center;
+    align-items: center; 
+    display: flex;
+    margin-top: -50px;
+    width: 100%; 
+   
+}
+
+section h3 {
+    text-align: center;
+    padding: 20px 0;
+    color:  rgb(219, 69, 64);
+    margin-bottom: 25px;
+}
+
+.img-banner:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right:0 ;
+    bottom: 0;
+    
+
+}
+
+.img-banner h1 {
+    color: red;
+    z-index: 1;
+    padding: 15px 32em;
+    font-size: 15px;
+    border: 1px solid green;
+    background-image: linear-gradient(yellow, red);
+    width: 100%;
+}
+   
+
+/* .img-banner img{
+    padding-left: 30em;
+} */
 section h3 {
     text-align: center;
     padding: 20px 0;
@@ -201,6 +254,124 @@ footer {
     
 } */
 
+/* testimoni */
+
+/* .container-testimoni {
+   
+  border: 2px solid #ccc;
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 
+
+  
+} */
+
+.container-testimoni {
+  content: ""; 
+  clear: both;
+  display: table;
+  
+  height: 60vh;
+  background-size: cover;
+  position: relative; 
+  justify-content: center;
+  align-items: center; 
+  display: flex;
+  margin-top: -200px;
+   width: 100%; 
+}
+
+.container-testimoni:after {
+    content: '';
+    display: block;
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    right:0 ;
+    bottom: 0;
+    border: 1px solid red;
+
+}
+h3 {
+    font-size: 50px;
+}
+/* .container-testimoni img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.container-testimoni span {
+  font-size: 20px;
+  margin-right: 10px;
+} */
+.garis {
+    color: red;
+   padding-left : 10px;
+   padding-bottom: 80px;
+   font-weight: 30px;
+}
+.nama-testimoni {
+   padding-left : 10px;
+   margin-bottom: 80px;
+}
+.keterangan-testi {
+    width: 80%;
+    margin: 0 auto;
+    padding-left: 38em;
+    color: rebeccapurple;
+    font-weight: 30px;
+
+}
+.kota-testimoni {
+   padding-left : 10px;
+   padding-bottom: 80px;
+   width: 200px;
+   box-sizing: border-box;
+   /* border: 1px solid red; */
+}
+.comment {
+    /* display: flex;
+    align-items: center; */
+    position: absolute;
+    
+   left: 800px;
+   bottom: 830px;
+
+}
+/* .comment-p {
+    position: absolute;
+    left: 500px;
+    bottom: 100px;
+} */
+@media (max-width: 768px) {
+  .container-testimoni {
+      text-align: center;
+      position: fixed;
+  }
+  .container-testimoni img {
+      margin: auto;
+      float: none;
+      display: block;
+      /* position: fixed; */
+  }
+  .nama-testimoni{
+    margin: auto;
+    float: none;
+    display: block;
+    /* position: fixed; */
+  }
+  .kota-testimoni {
+    margin: auto;
+    float: none;
+    display: block;
+    /* position: fixed; */
+  }
+}
+
+/* batas testimoni */
+
 @media screen and(max-wid:768px) {
     .container {
         width: 90%;
@@ -218,5 +389,18 @@ footer {
         float: none;
         margin-bottom: 20px;
     }
+
+    .img-banner h1 {
+        display: flex;
+        position: fixed;
+    }
     
+}
+
+@media screen and(min-wid:768px) {
+
+    .comment {
+        position: fixed;
+    }
+
 }

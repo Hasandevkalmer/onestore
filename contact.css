@@ -54,20 +54,7 @@ header ul li a:hover {
   background-color:  rgb(219, 69, 64);
   color: #fff;
 }
-.banner {
-  height: 60vh;
-  background-image: url(./img/bannerfigma.png);
-  background-size: cover;
-  position: relative; 
-  display: flex;
-  justify-content: center;
-  align-items: center; 
-  display: flex;
-  margin-top: -50px;
-  width: 100%; 
 
- 
-}
 
 h1 {
   color: #fff;
@@ -228,7 +215,15 @@ header ul{
 
 @media  screen and (max-width:  688px) {
     .box {
-       /* display: none;  */
+       display: none; 
+      /* text-decoration: none;; */
+      
+   
+    }
+  }
+  @media  screen and (min-width:  688px) {
+    .tampilkan {
+       display: none; 
       /* text-decoration: none;; */
       
    
