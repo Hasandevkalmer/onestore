@@ -226,7 +226,7 @@ footer {
 
 }
 .label {
-    background-color:  rgb(219, 69, 64);
+    background-image: linear-gradient(yellow, red);
     color: #fff;
 }
 @keyframes puterin {
@@ -266,64 +266,13 @@ footer {
 
   
 } */
-/* img */
-.container-testimoni img {
-    content: ""; 
-    clear: both;
-    display: table;
-    
-    height: 200px;
-    background-size: cover;
-    position: relative; 
-    justify-content: center;
-    align-items: center; 
-    display: flex;
-    margin-top: -50px;
-    margin-right: 500px;
-     /* width: 200px;  */
-     width: 400px;
-     
-  }
-  h2 {
-    margin-top: 20px;
-  }
-  /* container img */
-  .container-testimoni-img {
-    content: ""; 
-    clear: both;
-    display: table;
-    
-    height: 10vh;
-    background-size: cover;
-    position: relative; 
-    justify-content: center;
-    align-items: center; 
-    display: flex;
-    margin-left: 10px;
-    margin-bottom: 200px;
-     width: 100%; 
-  }
-  
-  .container-testimoni-img::after {
-      content: '';
-      display: block;
-      /* position: absolute; */
-      top: 0;
-      left: 0;
-      right:0 ;
-      bottom: 0;
-      border: 1px solid red;
-  
-  }
-  /* batas container img */
- 
-/* batasimg */
+
 .container-testimoni {
   content: ""; 
   clear: both;
   display: table;
   
-  height: 40vh;
+  height: 60vh;
   background-size: cover;
   position: relative; 
   justify-content: center;
@@ -333,7 +282,7 @@ footer {
    width: 100%; 
 }
 
-.container-testimoni::after {
+.container-testimoni:after {
     content: '';
     display: block;
     /* position: absolute; */
@@ -344,41 +293,58 @@ footer {
     border: 1px solid red;
 
 }
-.container-testimoni p {
-
-    content: ""; 
-    clear: both;
-    display: table;
-    
-    height: 60vh;
-    background-size: cover;
-    position: relative; 
-    justify-content: center;
-    align-items: center; 
-    display: flex;
-    margin-top: 200px;
-     width: 100%; 
-
-}
-.container-testimoni p ::after {
-    content: '';
-    display: block;
-    /* position: absolute; */
-    top: 0;
-    left: 0;
-    right:0 ;
-    bottom: 0;
-    border: 1px solid red;
-
-}
-.container-testimoni h3 {
+h3 {
     font-size: 50px;
-    margin-bottom:50px;
 }
-.about-ajakan {
-    margin-bottom: 100px;
+/* .container-testimoni img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
 }
-/* 
+
+.container-testimoni span {
+  font-size: 20px;
+  margin-right: 10px;
+} */
+.garis {
+    color: red;
+   padding-left : 10px;
+   padding-bottom: 80px;
+   font-weight: 30px;
+}
+.nama-testimoni {
+   padding-left : 10px;
+   margin-bottom: 80px;
+}
+.keterangan-testi {
+    width: 80%;
+    margin: 0 auto;
+    padding-left: 38em;
+    color: rebeccapurple;
+    font-weight: 30px;
+
+}
+.kota-testimoni {
+   padding-left : 10px;
+   padding-bottom: 80px;
+   width: 200px;
+   box-sizing: border-box;
+   /* border: 1px solid red; */
+}
+.comment {
+    /* display: flex;
+    align-items: center; */
+    position: absolute;
+    
+   left: 800px;
+   bottom: 830px;
+
+}
+/* .comment-p {
+    position: absolute;
+    left: 500px;
+    bottom: 100px;
+} */
 @media (max-width: 768px) {
   .container-testimoni {
       text-align: center;
@@ -389,9 +355,20 @@ footer {
       float: none;
       display: block;
       /* position: fixed; */
-  /* } */
- 
-/* } */ 
+  }
+  .nama-testimoni{
+    margin: auto;
+    float: none;
+    display: block;
+    /* position: fixed; */
+  }
+  .kota-testimoni {
+    margin: auto;
+    float: none;
+    display: block;
+    /* position: fixed; */
+  }
+}
 
 /* batas testimoni */
 
@@ -417,10 +394,8 @@ footer {
         display: flex;
         position: fixed;
     }
-
     
 }
-
 
 @media screen and(min-wid:768px) {
 
