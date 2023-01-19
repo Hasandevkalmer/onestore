@@ -159,8 +159,11 @@ footer {
   animation: puterin .5s linear infinite;
 
 }
+.tampilkan {
+  color: red;
+}
 .label {
-  background-color:  rgb(219, 69, 64);
+  background-image: linear-gradient(yellow, red);
   color: #fff;
 }
 @keyframes puterin {
@@ -210,12 +213,11 @@ header ul{
 
 
 
-
-
-
 @media  screen and (max-width:  688px) {
     .box {
        display: none; 
+       color: red;
+       padding-top: 10em;
       /* text-decoration: none;; */
       
    

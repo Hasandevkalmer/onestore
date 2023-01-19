@@ -173,7 +173,7 @@ footer {
 
 }
 .label {
-    background-color:  rgb(219, 69, 64);
+  background-image: linear-gradient(yellow, red);
     color: #fff;
 }
 @keyframes puterin {
